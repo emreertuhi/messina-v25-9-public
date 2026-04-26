@@ -6,6 +6,7 @@ authors:
   - family-names: "Ertuhi"
     given-names: "Emre"
 repository-code: "https://github.com/emreertuhi/messina-v25-9-public"
+url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6654978"
 abstract: "A bounded public-safe governance-observer release for mechanism-encoding chokepoint crisis stress testing under encoded assumptions. This release exposes formulas, configs, artifacts, and a public runner; it is not a full release of the historical internal engine."
 license: "MIT"
 keywords:
@@ -15,5 +16,14 @@ keywords:
   - governance diagnostics
   - institutional friction
   - MESSINA
-version: "v25.9-public-safe-v8.3"
-date-released: "2026-04-26"
+version: "v25.9-public-safe-v8.5"
+date-released: "2026-04-27"
+preferred-citation:
+  type: report
+  title: "MESSINA v25.9: A Mechanism-Encoding Stress-Testing Framework for Chokepoint Crisis Governance"
+  authors:
+    - family-names: "Ertuhi"
+      given-names: "Emre"
+  year: 2026
+  institution: "SSRN"
+  url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6654978"
