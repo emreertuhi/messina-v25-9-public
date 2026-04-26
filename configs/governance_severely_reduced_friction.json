@@ -1,0 +1,24 @@
+{
+  "scenario_name": "governance_severely_reduced_friction",
+  "description": "Public-safe partial-friction overlay representing severe braking decay prior to the frictionless counterfactual.",
+  "seed": 20260421,
+  "peak_stress": 0.7994333234018115,
+  "archetype": "rapid_shock_plateau",
+  "regime": "",
+  "governance_profile": {
+    "platform_dependency": 0.525
+  },
+  "core": {
+    "intelligence_reliability_gap": 0.8037500000000001,
+    "info_distortion": 0.7515000000000001,
+    "intelligence_contamination": 0.70075,
+    "negotiation_credibility": 0.3277282885101283,
+    "congressional_constraint": 0.4764454210387368,
+    "legal_cohesion": 0.5750000000000001,
+    "religious_moral_constraint": 0.4975,
+    "delegated_command_depth": 0.8248706956860848,
+    "local_unit_autonomy": 0.82075,
+    "strategic_control_gap": 0.9003749999999999,
+    "ceasefire_lag": 0.830375
+  }
+}

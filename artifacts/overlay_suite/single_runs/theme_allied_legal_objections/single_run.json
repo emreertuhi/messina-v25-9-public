@@ -1,0 +1,15 @@
+{
+  "scenario_name": "theme_allied_legal_objections",
+  "description": "Illustrative governance overlay representing stronger allied legal resistance and coalition-side scrutiny in the same broad crisis frame.",
+  "peak_stress": 0.7999721678974817,
+  "archetype": "rapid_shock_plateau",
+  "regime": "",
+  "governance_signals": {
+    "epistemic_integrity_proxy": 0.25375000000000003,
+    "decision_friction_proxy": 0.4658,
+    "platform_dependency_proxy": 0.57,
+    "mosaic_response_proxy": 0.840049602722785,
+    "governance_erosion_score": 0.6679349205445569,
+    "weight_disclaimer": "Governance proxy weights are design choices, not empirical estimates."
+  }
+}

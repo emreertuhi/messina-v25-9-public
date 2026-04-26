@@ -1,0 +1,56 @@
+category,context,name,value,note
+formula_weight,epistemic_integrity_proxy,intelligence_reliability_gap,0.35,design choice
+formula_weight,epistemic_integrity_proxy,info_distortion,0.3,design choice
+formula_weight,epistemic_integrity_proxy,intelligence_contamination,0.2,design choice
+formula_weight,epistemic_integrity_proxy,1 - negotiation_credibility,0.15,design choice
+formula_weight,decision_friction_proxy,congressional_constraint,0.4,design choice
+formula_weight,decision_friction_proxy,negotiation_credibility,0.3,design choice
+formula_weight,decision_friction_proxy,legal_cohesion,0.2,design choice
+formula_weight,decision_friction_proxy,religious_moral_constraint,0.1,design choice
+formula_weight,mosaic_response_proxy,delegated_command_depth,0.35,design choice
+formula_weight,mosaic_response_proxy,local_unit_autonomy,0.25,design choice
+formula_weight,mosaic_response_proxy,strategic_control_gap,0.2,design choice
+formula_weight,mosaic_response_proxy,ceasefire_lag,0.2,design choice
+formula_weight,governance_erosion_score,1 - epistemic_integrity_proxy,0.3,design choice
+formula_weight,governance_erosion_score,1 - decision_friction_proxy,0.25,design choice
+formula_weight,governance_erosion_score,platform_dependency_proxy,0.25,design choice
+formula_weight,governance_erosion_score,mosaic_response_proxy,0.2,design choice
+scenario_value,hormuz_v25_9_baseline.json,peak_stress,0.7978167899148008,public-safe config
+scenario_value,hormuz_v25_9_baseline.json,platform_dependency,0.0,public-safe config
+scenario_core,hormuz_v25_9_baseline.json,intelligence_reliability_gap,0.8,public-safe config
+scenario_core,hormuz_v25_9_baseline.json,info_distortion,0.75,public-safe config
+scenario_core,hormuz_v25_9_baseline.json,intelligence_contamination,0.7,public-safe config
+scenario_core,hormuz_v25_9_baseline.json,negotiation_credibility,0.32035024687529146,public-safe config
+scenario_core,hormuz_v25_9_baseline.json,congressional_constraint,0.5001732684304019,public-safe config
+scenario_core,hormuz_v25_9_baseline.json,legal_cohesion,0.62,public-safe config
+scenario_core,hormuz_v25_9_baseline.json,religious_moral_constraint,0.55,public-safe config
+scenario_core,hormuz_v25_9_baseline.json,delegated_command_depth,0.8257719022633253,public-safe config
+scenario_core,hormuz_v25_9_baseline.json,local_unit_autonomy,0.82,public-safe config
+scenario_core,hormuz_v25_9_baseline.json,strategic_control_gap,0.9,public-safe config
+scenario_core,hormuz_v25_9_baseline.json,ceasefire_lag,0.83,public-safe config
+scenario_value,governance_high_friction.json,peak_stress,0.7978167899148008,public-safe config
+scenario_value,governance_high_friction.json,platform_dependency,0.15,public-safe config
+scenario_core,governance_high_friction.json,intelligence_reliability_gap,0.8,public-safe config
+scenario_core,governance_high_friction.json,info_distortion,0.75,public-safe config
+scenario_core,governance_high_friction.json,intelligence_contamination,0.7,public-safe config
+scenario_core,governance_high_friction.json,negotiation_credibility,0.32035024687529146,public-safe config
+scenario_core,governance_high_friction.json,congressional_constraint,0.5001732684304019,public-safe config
+scenario_core,governance_high_friction.json,legal_cohesion,0.62,public-safe config
+scenario_core,governance_high_friction.json,religious_moral_constraint,0.55,public-safe config
+scenario_core,governance_high_friction.json,delegated_command_depth,0.8257719022633253,public-safe config
+scenario_core,governance_high_friction.json,local_unit_autonomy,0.82,public-safe config
+scenario_core,governance_high_friction.json,strategic_control_gap,0.9,public-safe config
+scenario_core,governance_high_friction.json,ceasefire_lag,0.83,public-safe config
+scenario_value,governance_frictionless.json,peak_stress,0.7999721678974817,public-safe config
+scenario_value,governance_frictionless.json,platform_dependency,0.65,public-safe config
+scenario_core,governance_frictionless.json,intelligence_reliability_gap,0.805,public-safe config
+scenario_core,governance_frictionless.json,info_distortion,0.752,public-safe config
+scenario_core,governance_frictionless.json,intelligence_contamination,0.701,public-safe config
+scenario_core,governance_frictionless.json,negotiation_credibility,0.3301876357217406,public-safe config
+scenario_core,governance_frictionless.json,congressional_constraint,0.4685361385748485,public-safe config
+scenario_core,governance_frictionless.json,legal_cohesion,0.56,public-safe config
+scenario_core,governance_frictionless.json,religious_moral_constraint,0.48,public-safe config
+scenario_core,governance_frictionless.json,delegated_command_depth,0.8245702934936714,public-safe config
+scenario_core,governance_frictionless.json,local_unit_autonomy,0.821,public-safe config
+scenario_core,governance_frictionless.json,strategic_control_gap,0.9005,public-safe config
+scenario_core,governance_frictionless.json,ceasefire_lag,0.8305,public-safe config

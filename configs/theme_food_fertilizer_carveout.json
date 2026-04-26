@@ -1,0 +1,24 @@
+{
+  "scenario_name": "theme_food_fertilizer_carveout",
+  "description": "Illustrative governance overlay representing clearer food and fertilizer carve-outs within the same broad crisis frame.",
+  "seed": 20260421,
+  "peak_stress": 0.7994,
+  "archetype": "rapid_shock_plateau",
+  "regime": "",
+  "governance_profile": {
+    "platform_dependency": 0.56
+  },
+  "core": {
+    "intelligence_reliability_gap": 0.805,
+    "info_distortion": 0.748,
+    "intelligence_contamination": 0.701,
+    "negotiation_credibility": 0.345,
+    "congressional_constraint": 0.4685361385748485,
+    "legal_cohesion": 0.585,
+    "religious_moral_constraint": 0.48,
+    "delegated_command_depth": 0.8245702934936714,
+    "local_unit_autonomy": 0.821,
+    "strategic_control_gap": 0.9005,
+    "ceasefire_lag": 0.8305
+  }
+}

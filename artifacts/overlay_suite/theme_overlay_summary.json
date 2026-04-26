@@ -1,0 +1,61 @@
+{
+  "rows": [
+    {
+      "scenario_name": "theme_allied_legal_objections",
+      "peak_stress": 0.7999721678974817,
+      "governance_erosion_score": 0.6679349205445569,
+      "epistemic_integrity_proxy": 0.25375000000000003,
+      "decision_friction_proxy": 0.4658,
+      "platform_dependency_proxy": 0.57,
+      "mosaic_response_proxy": 0.840049602722785,
+      "archetype": "rapid_shock_plateau",
+      "regime": "",
+      "delta_vs_frictionless": {
+        "peak_stress": 0.0,
+        "governance_erosion_score": -0.02536386985590633,
+        "epistemic_integrity_proxy": 0.0017718546417389014,
+        "decision_friction_proxy": 0.019329253853538397,
+        "platform_dependency_proxy": -0.08000000000000007,
+        "mosaic_response_proxy": 0.0
+      }
+    },
+    {
+      "scenario_name": "theme_food_fertilizer_carveout",
+      "peak_stress": 0.7994,
+      "governance_erosion_score": 0.6674113066870722,
+      "epistemic_integrity_proxy": 0.25540000000000007,
+      "decision_friction_proxy": 0.45591445542993936,
+      "platform_dependency_proxy": 0.56,
+      "mosaic_response_proxy": 0.840049602722785,
+      "archetype": "rapid_shock_plateau",
+      "regime": "",
+      "delta_vs_frictionless": {
+        "peak_stress": -0.0005721678974817124,
+        "governance_erosion_score": -0.025887483713391113,
+        "epistemic_integrity_proxy": 0.0034218546417389417,
+        "decision_friction_proxy": 0.009443709283477764,
+        "platform_dependency_proxy": -0.08999999999999997,
+        "mosaic_response_proxy": 0.0
+      }
+    },
+    {
+      "scenario_name": "theme_buyer_testing_emphasis",
+      "peak_stress": 0.8005,
+      "governance_erosion_score": 0.704294920544557,
+      "epistemic_integrity_proxy": 0.2501500000000001,
+      "decision_friction_proxy": 0.4362,
+      "platform_dependency_proxy": 0.68,
+      "mosaic_response_proxy": 0.841949602722785,
+      "archetype": "rapid_shock_plateau",
+      "regime": "",
+      "delta_vs_frictionless": {
+        "peak_stress": 0.0005278321025182775,
+        "governance_erosion_score": 0.01099613014409373,
+        "epistemic_integrity_proxy": -0.0018281453582610352,
+        "decision_friction_proxy": -0.010270746146461618,
+        "platform_dependency_proxy": 0.030000000000000027,
+        "mosaic_response_proxy": 0.0019000000000000128
+      }
+    }
+  ]
+}

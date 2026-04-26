@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MESSINA Public Interpretation Contract",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "build_scope": {"type": "string"},
+    "claim_type": {
+      "type": "string",
+      "enum": ["comparative_proxy", "bounded_release", "documentation_surface", "validation_surface"]
+    },
+    "allowed_claims": {"type": "array", "items": {"type": "string"}},
+    "disallowed_claims": {"type": "array", "items": {"type": "string"}},
+    "notes": {"type": "string"}
+  },
+  "required": ["build_scope", "claim_type", "allowed_claims", "disallowed_claims"]
+}

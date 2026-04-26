@@ -1,0 +1,24 @@
+{
+  "scenario_name": "policy_structured_dissent",
+  "description": "Illustrative governance overlay representing stronger on-record institutional dissent inside the same broad crisis frame.",
+  "seed": 20260421,
+  "peak_stress": 0.7999721678974817,
+  "archetype": "rapid_shock_plateau",
+  "regime": "",
+  "governance_profile": {
+    "platform_dependency": 0.6
+  },
+  "core": {
+    "intelligence_reliability_gap": 0.805,
+    "info_distortion": 0.752,
+    "intelligence_contamination": 0.701,
+    "negotiation_credibility": 0.3301876357217406,
+    "congressional_constraint": 0.4685361385748485,
+    "legal_cohesion": 0.6,
+    "religious_moral_constraint": 0.53,
+    "delegated_command_depth": 0.81,
+    "local_unit_autonomy": 0.8,
+    "strategic_control_gap": 0.9005,
+    "ceasefire_lag": 0.8305
+  }
+}

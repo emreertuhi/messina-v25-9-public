@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MESSINA Public Scenario Pack Config",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "scenario_name": {"type": "string"},
+    "description": {"type": "string"},
+    "seed": {"type": "integer"},
+    "peak_stress": {"type": "number", "minimum": 0, "maximum": 1},
+    "archetype": {"type": "string"},
+    "regime": {"type": "string"},
+    "governance_profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "platform_dependency": {"type": "number", "minimum": 0, "maximum": 1}
+      },
+      "required": ["platform_dependency"]
+    },
+    "core": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "intelligence_reliability_gap": {"type": "number", "minimum": 0, "maximum": 1},
+        "info_distortion": {"type": "number", "minimum": 0, "maximum": 1},
+        "intelligence_contamination": {"type": "number", "minimum": 0, "maximum": 1},
+        "negotiation_credibility": {"type": "number", "minimum": 0, "maximum": 1},
+        "congressional_constraint": {"type": "number", "minimum": 0, "maximum": 1},
+        "legal_cohesion": {"type": "number", "minimum": 0, "maximum": 1},
+        "religious_moral_constraint": {"type": "number", "minimum": 0, "maximum": 1},
+        "delegated_command_depth": {"type": "number", "minimum": 0, "maximum": 1},
+        "local_unit_autonomy": {"type": "number", "minimum": 0, "maximum": 1},
+        "strategic_control_gap": {"type": "number", "minimum": 0, "maximum": 1},
+        "ceasefire_lag": {"type": "number", "minimum": 0, "maximum": 1}
+      },
+      "required": [
+        "intelligence_reliability_gap",
+        "info_distortion",
+        "intelligence_contamination",
+        "negotiation_credibility",
+        "congressional_constraint",
+        "legal_cohesion",
+        "religious_moral_constraint",
+        "delegated_command_depth",
+        "local_unit_autonomy",
+        "strategic_control_gap",
+        "ceasefire_lag"
+      ]
+    }
+  },
+  "required": ["scenario_name", "peak_stress", "governance_profile", "core"]
+}

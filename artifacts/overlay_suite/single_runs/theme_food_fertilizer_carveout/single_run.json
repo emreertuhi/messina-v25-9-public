@@ -1,0 +1,15 @@
+{
+  "scenario_name": "theme_food_fertilizer_carveout",
+  "description": "Illustrative governance overlay representing clearer food and fertilizer carve-outs within the same broad crisis frame.",
+  "peak_stress": 0.7994,
+  "archetype": "rapid_shock_plateau",
+  "regime": "",
+  "governance_signals": {
+    "epistemic_integrity_proxy": 0.25540000000000007,
+    "decision_friction_proxy": 0.45591445542993936,
+    "platform_dependency_proxy": 0.56,
+    "mosaic_response_proxy": 0.840049602722785,
+    "governance_erosion_score": 0.6674113066870722,
+    "weight_disclaimer": "Governance proxy weights are design choices, not empirical estimates."
+  }
+}

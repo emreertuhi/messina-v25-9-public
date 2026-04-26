@@ -1,0 +1,24 @@
+{
+  "scenario_name": "governance_moderately_reduced_friction",
+  "description": "Public-safe partial-friction overlay representing moderate braking decay relative to the high-friction baseline.",
+  "seed": 20260421,
+  "peak_stress": 0.7988944789061412,
+  "archetype": "rapid_shock_plateau",
+  "regime": "",
+  "governance_profile": {
+    "platform_dependency": 0.4
+  },
+  "core": {
+    "intelligence_reliability_gap": 0.8025,
+    "info_distortion": 0.751,
+    "intelligence_contamination": 0.7004999999999999,
+    "negotiation_credibility": 0.325268941298516,
+    "congressional_constraint": 0.4843547035026252,
+    "legal_cohesion": 0.5900000000000001,
+    "religious_moral_constraint": 0.515,
+    "delegated_command_depth": 0.8251710978784983,
+    "local_unit_autonomy": 0.8205,
+    "strategic_control_gap": 0.90025,
+    "ceasefire_lag": 0.8302499999999999
+  }
+}

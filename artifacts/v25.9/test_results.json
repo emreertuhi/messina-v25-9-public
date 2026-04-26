@@ -1,0 +1,11 @@
+{
+  "command": "python -m unittest tests.public_validation.test_public_safe_runner -v",
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_all_public_configs_load_and_proxies_are_bounded (tests.public_validation.test_public_safe_runner.TestPublicSafeRunner.test_all_public_configs_load_and_proxies_are_bounded) ... ok\ntest_compare_reproduces_documented_governance_comparison (tests.public_validation.test_public_safe_runner.TestPublicSafeRunner.test_compare_reproduces_documented_governance_comparison) ... ok\ntest_single_run_reproduces_baseline_governance_signals (tests.public_validation.test_public_safe_runner.TestPublicSafeRunner.test_single_run_reproduces_baseline_governance_signals) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.002s\n\nOK\n",
+  "successful": true,
+  "tests_run": 3,
+  "errors": 0,
+  "failures": 0,
+  "release": "v25.9-public-safe-v8.5"
+}

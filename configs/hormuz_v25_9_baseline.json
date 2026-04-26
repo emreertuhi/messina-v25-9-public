@@ -1,0 +1,24 @@
+{
+  "scenario_name": "hormuz_v25_9_baseline",
+  "description": "Public-safe baseline governance output for v25.9.",
+  "seed": 20260421,
+  "peak_stress": 0.7978167899148008,
+  "archetype": "rapid_shock_plateau",
+  "regime": "",
+  "governance_profile": {
+    "platform_dependency": 0.0
+  },
+  "core": {
+    "intelligence_reliability_gap": 0.8,
+    "info_distortion": 0.75,
+    "intelligence_contamination": 0.7,
+    "negotiation_credibility": 0.32035024687529146,
+    "congressional_constraint": 0.5001732684304019,
+    "legal_cohesion": 0.62,
+    "religious_moral_constraint": 0.55,
+    "delegated_command_depth": 0.8257719022633253,
+    "local_unit_autonomy": 0.82,
+    "strategic_control_gap": 0.9,
+    "ceasefire_lag": 0.83
+  }
+}

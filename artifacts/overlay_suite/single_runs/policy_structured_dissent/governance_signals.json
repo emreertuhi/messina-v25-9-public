@@ -1,0 +1,8 @@
+{
+  "epistemic_integrity_proxy": 0.25197814535826113,
+  "decision_friction_proxy": 0.45947074614646155,
+  "platform_dependency_proxy": 0.6,
+  "mosaic_response_proxy": 0.8297,
+  "governance_erosion_score": 0.6754788698559062,
+  "weight_disclaimer": "Governance proxy weights are design choices, not empirical estimates."
+}

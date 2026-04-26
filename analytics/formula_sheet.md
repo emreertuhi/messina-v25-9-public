@@ -1,0 +1,70 @@
+# Formula Sheet
+## Public-Facing Proxy Formulas in MESSINA v25.9
+
+## Reading rule
+
+Every formula in this sheet should be read as:
+- a comparative design structure,
+- a public-facing proxy formula,
+- an internal normalized index or composite.
+
+These formulas should **not** be read as:
+- natural-unit measurements,
+- universal laws of crisis politics,
+- forecast engines.
+
+## 1. Epistemic Integrity Proxy
+
+```python
+epistemic_integrity_proxy = 1.0 - (
+    0.35 * intelligence_reliability_gap +
+    0.30 * info_distortion +
+    0.20 * intelligence_contamination +
+    0.15 * (1.0 - negotiation_credibility)
+)
+```
+
+This proxy summarizes the relative quality of the crisis-relevant informational environment.
+
+## 2. Decision Friction Proxy
+
+```python
+decision_friction_proxy = (
+    0.40 * congressional_constraint +
+    0.30 * negotiation_credibility +
+    0.20 * legal_cohesion +
+    0.10 * religious_moral_constraint
+)
+```
+
+This proxy summarizes how much institutional, legal, negotiated, and normative braking remains inside the decision cycle.
+
+## 3. Mosaic Response Proxy
+
+```python
+mosaic_response_proxy = (
+    0.35 * delegated_command_depth +
+    0.25 * local_unit_autonomy +
+    0.20 * strategic_control_gap +
+    0.20 * ceasefire_lag
+)
+```
+
+This proxy captures distributed, delegated, and uneven crisis response structure.
+
+## 4. Governance Erosion Score
+
+```python
+governance_erosion_score = (
+    0.30 * (1.0 - epistemic_integrity_proxy) +
+    0.25 * (1.0 - decision_friction_proxy) +
+    0.25 * platform_dependency_proxy +
+    0.20 * mosaic_response_proxy
+)
+```
+
+This composite compares hidden deterioration in governability across conditions.
+
+## Weight disclaimer
+
+Governance proxy weights are design choices, not empirical estimates.

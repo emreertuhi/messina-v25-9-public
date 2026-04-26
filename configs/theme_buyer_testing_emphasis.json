@@ -1,0 +1,24 @@
+{
+  "scenario_name": "theme_buyer_testing_emphasis",
+  "description": "Illustrative governance overlay representing stronger strategic-buyer boundary testing and weaker implementation credibility under the same broad crisis frame.",
+  "seed": 20260421,
+  "peak_stress": 0.8005,
+  "archetype": "rapid_shock_plateau",
+  "regime": "",
+  "governance_profile": {
+    "platform_dependency": 0.68
+  },
+  "core": {
+    "intelligence_reliability_gap": 0.805,
+    "info_distortion": 0.752,
+    "intelligence_contamination": 0.701,
+    "negotiation_credibility": 0.318,
+    "congressional_constraint": 0.462,
+    "legal_cohesion": 0.54,
+    "religious_moral_constraint": 0.48,
+    "delegated_command_depth": 0.8245702934936714,
+    "local_unit_autonomy": 0.821,
+    "strategic_control_gap": 0.91,
+    "ceasefire_lag": 0.8305
+  }
+}

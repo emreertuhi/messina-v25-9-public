@@ -1,0 +1,34 @@
+{
+  "comparison": {
+    "high_friction": {
+      "peak_stress": 0.7978167899148008,
+      "governance_erosion_score": 0.5607946766903575,
+      "epistemic_integrity_proxy": 0.2530525370312938,
+      "decision_friction_proxy": 0.4751743814347482,
+      "platform_dependency_proxy": 0.15,
+      "mosaic_response_proxy": 0.8400201657921639,
+      "archetype": "rapid_shock_plateau",
+      "regime": ""
+    },
+    "frictionless": {
+      "peak_stress": 0.7999721678974817,
+      "governance_erosion_score": 0.6932987904004633,
+      "epistemic_integrity_proxy": 0.25197814535826113,
+      "decision_friction_proxy": 0.4464707461464616,
+      "platform_dependency_proxy": 0.65,
+      "mosaic_response_proxy": 0.840049602722785,
+      "archetype": "rapid_shock_plateau",
+      "regime": ""
+    },
+    "delta": {
+      "peak_stress": 0.0021553779826809505,
+      "governance_erosion_score": 0.13250411371010573,
+      "epistemic_integrity_proxy": -0.001074391673032693,
+      "decision_friction_proxy": -0.028703635288286622,
+      "platform_dependency_proxy": 0.5,
+      "mosaic_response_proxy": 2.9436930621073998e-05
+    }
+  },
+  "seed_warning": "Same seed set does NOT imply identical stochastic conditions.",
+  "weight_disclaimer": "Governance proxy weights are design choices, not empirical estimates."
+}
