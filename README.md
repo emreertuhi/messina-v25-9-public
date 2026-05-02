@@ -14,21 +14,21 @@ Ertuhi, Emre. 2026. *MESSINA v25.9: A Mechanism-Encoding Stress-Testing Framewor
 
 ## Safest one-sentence description
 
-MESSINA is a mechanism-encoding, research-grade scenario-exploration framework whose public outputs should be read as comparative governance diagnostics under encoded assumptions, not as forecasts.
+MESSINA v25.9 is a bounded public observer surface whose outputs should be read as comparative governance diagnostics under explicit assumptions, not as forecasts, empirical measurements, or full internal-engine validation.
 
 ## Current release boundary
 
-The broader internal v25.x architecture is documented as a 72-variable, six-layer, two-dozen-module design lineage. This public repository releases a narrower governance-observer subset: explicit governance formulas, governance profiles and comparison configs, friction-spectrum/policy/theme overlays, public artifacts, a bounded runner, validation tests, and supporting documentation.
+The broader internal v25.x architecture is documented as a 72-variable, six-layer, two-dozen-module design lineage. That lineage is not the public validation surface. This public repository releases a narrower governance-observer subset: explicit governance formulas, governance profiles and comparison configs, friction-spectrum/policy/theme overlays, public artifacts, a bounded runner, validation tests, and supporting documentation.
 
-The public claims supported by this repository rest on that exposed observer surface. Readers do not need to treat a non-public full engine as a black box in order to inspect the article-facing governance comparison.
+The public claims supported by this repository rest on that exposed observer surface. Readers do not need to treat a non-public full engine as a black box in order to inspect the article-facing governance comparison. The repository supports a limited claim: under documented governance profiles, visible stress can remain broadly similar while governance diagnostics differ materially.
 
 ## What this repository is not
 
-This repository is not a forecasting engine, production decision tool, full release of the historical internal engine, complete public implementation of all 24 internal module families, or claim of full empirical calibration.
+This repository is not a forecasting engine, production decision tool, full release of the historical internal engine, complete public implementation of all 24 internal module families, empirical calibration claim, causal estimate, or proof that reduced institutional friction produces governance erosion in the external world.
 
 ## Start here
 
-1. `docs/MESSINA_Working_Paper_v1_4.md`
+1. `docs/MESSINA_Working_Paper_v1_5.md`
 2. `docs/model_card.md`
 3. `docs/release_scope.md`
 4. `docs/article_relation.md`
@@ -62,6 +62,10 @@ python run_public.py compare --left configs/governance_high_friction.json --righ
 
 The clearest public evidence files are `src/public_safe/observer_formulas.py`, `src/public_safe/scenario_loader.py`, `configs/governance_high_friction.json`, `configs/governance_frictionless.json`, `artifacts/v25.9/governance_comparison.json`, `artifacts/v25.9/governance_summary.md`, and `tests/public_validation/test_public_safe_runner.py`.
 
+## Interpretation rule
+
+The public comparison should be read as an assumption-sensitive observer diagnostic. In the core high-friction versus frictionless comparison, governance erosion rises from 0.561 to 0.693, but that delta is dominated by the platform-dependency assumption: platform dependency is assigned at 0.15 in the high-friction profile and 0.65 in the frictionless profile. Readers can challenge that assumption, alter the profile, and rerun the comparison.
+
 ## Public metadata
 
 - **Repository:** https://github.com/emreertuhi/messina-v25-9-public
@@ -72,7 +76,7 @@ Keep draft-management and private planning material outside the public repositor
 
 ## Monte Carlo boundary
 
-The broader MESSINA design lineage includes bounded Monte Carlo use, especially the historically important MC512 ensemble size for branch stability, phase consistency, and scenario comparison. In this public repository, MC512 belongs to the methodological lineage and future release target. It is not a public validation claim unless the relevant stochastic runner, seed protocol, sampling assumptions, and ensemble artifacts are released.
+The broader MESSINA design lineage includes bounded Monte Carlo use, especially the historically important MC512 ensemble size for branch stability, phase consistency, and scenario comparison. In this public repository, MC512 belongs to the methodological lineage and future release target. It is not a public validation claim unless the relevant stochastic runner, seed protocol, sampling assumptions, and ensemble artifacts are released. Stochastic repetition does not convert these outputs into real-world probabilities.
 
 ## License
 

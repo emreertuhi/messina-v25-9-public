@@ -11,13 +11,21 @@ abstract: "A bounded public-safe governance-observer release for mechanism-encod
 license: "MIT"
 keywords:
   - chokepoint crisis
-  - scenario exploration
-  - comparative stress testing
-  - governance diagnostics
   - institutional friction
-  - MESSINA
-version: "v25.9-public-safe-v8.5"
-date-released: "2026-04-27"
+  - governance erosion
+  - stress testing
+  - Hormuz
+  - maritime coercion
+  - securitization
+  - normal accidents
+  - agent-based modeling
+  - platform dependency
+  - crisis propagation
+  - tight coupling
+  - governance diagnostics
+  - simulation framework
+version: "v25.9-public-safe-v8.6"
+date-released: "2026-05-02"
 preferred-citation:
   type: report
   title: "MESSINA v25.9: A Mechanism-Encoding Stress-Testing Framework for Chokepoint Crisis Governance"
@@ -27,3 +35,4 @@ preferred-citation:
   year: 2026
   institution: "SSRN"
   url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6654978"
+  doi: "10.2139/ssrn.6654978"

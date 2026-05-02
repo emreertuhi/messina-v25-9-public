@@ -2,6 +2,24 @@
 
 All notable changes to the public-facing MESSINA repository should be recorded here.
 
+## [v25.9-public-safe-v8.6] - 2026-05-02
+
+### Changed
+- Replaced the working paper with `docs/MESSINA_Working_Paper_v1_5.md`.
+- Updated abstract to lead with framework contribution rather than defensive disclaimers.
+- Updated keywords to 14 terms optimized for SSRN discoverability.
+- Updated JEL codes to 7 (F51, F52, H56, C63, D02, H12, D81).
+- Added governance-erosion delta decomposition to Section 3.9, Appendix A.4, formula sheet, and coefficient ledger.
+- Clarified that platform dependency is profile-assigned in the public comparison rather than dynamically discovered by the public runner.
+- Added interpretation rule to README showing platform-dependency dominance in the governance-erosion delta.
+- Added Declaration of Interest, Ethics Approval, and Funder Statement to the working paper.
+- Tightened README, CITATION.cff, and public-framing language around the public observer surface.
+- Removed stale description language from public configs and regenerated affected artifacts.
+
+### Validation
+- Public unit tests rerun successfully after documentation and artifact updates.
+
+
 ## [v25.9-public-safe-v8.5-ssrn] - 2026-04-27
 
 ### Added
@@ -16,7 +34,7 @@ All notable changes to the public-facing MESSINA repository should be recorded h
 ## [v25.9-public-safe-v8.4] - 2026-04-26
 
 ### Fixed
-- Corrected `docs/source_verification_log_v1_4.md` header and opening note from v1.3 to v1.4.
+- Corrected `docs/source_verification_log_v1_5.md` header and opening note from v1.3 to v1.4.
 - Re-verified that generated Python cache directories and `.pyc` files are absent from the packaged public repository.
 
 ## [v25.9-public-safe-v8.3] - 2026-04-26
@@ -41,8 +59,8 @@ All notable changes to the public-facing MESSINA repository should be recorded h
 ## [v25.9-public-safe-v8] - 2026-04-26
 
 ### Added
-- `docs/MESSINA_Working_Paper_v1_4.md`
-- `docs/source_verification_log_v1_4.md`
+- `docs/MESSINA_Working_Paper_v1_5.md`
+- `docs/source_verification_log_v1_5.md`
 - Explicit public/internal reproducibility boundary language in README and core docs.
 - Operationalization bridge language connecting theory families to public proxies.
 - Public worked-example explanation for governance erosion.
