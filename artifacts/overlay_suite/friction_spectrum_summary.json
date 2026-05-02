@@ -2,7 +2,7 @@
   "rows": [
     {
       "scenario_name": "governance_high_friction_baseline",
-      "description": "Public-safe high-friction overlay used in the WotR governance comparison.",
+      "description": "Public-safe high-friction governance profile used in the v25.9 public observer comparison.",
       "peak_stress": 0.7978167899148008,
       "epistemic_integrity_proxy": 0.2530525370312938,
       "decision_friction_proxy": 0.4751743814347482,
@@ -42,7 +42,7 @@
     },
     {
       "scenario_name": "governance_frictionless_counterfactual",
-      "description": "Public-safe reduced-friction overlay used in the WotR governance comparison.",
+      "description": "Public-safe reduced-friction governance profile used in the v25.9 public observer comparison.",
       "peak_stress": 0.7999721678974817,
       "epistemic_integrity_proxy": 0.25197814535826113,
       "decision_friction_proxy": 0.4464707461464616,
