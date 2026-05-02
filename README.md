@@ -8,7 +8,7 @@ This repository is the v25.9 public-safe release. It is a bounded companion to t
 
 Ertuhi, Emre. 2026. *MESSINA v25.9: A Mechanism-Encoding Stress-Testing Framework for Chokepoint Crisis Governance*. SSRN Working Paper. Available at: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6654978
 
-**Keywords:** chokepoint crisis, institutional friction, governance erosion, stress testing, Hormuz, maritime coercion, securitization, normal accidents, agent-based modeling, platform dependency, crisis propagation, tight coupling, governance diagnostics, simulation framework
+**Keywords:** chokepoint crisis, institutional friction, governance erosion, stress testing, Hormuz, maritime coercion, securitization, normal accidents, agent-based modeling, platform dependency, crisis propagation, tight coupling, governance diagnostics, simulation framework, circulation crisis, rented visibility, braking architecture, decision sovereignty, governance-observer surface
 
 **JEL Classification:** F51, F52, H56, C63, D02, H12, D81
 
