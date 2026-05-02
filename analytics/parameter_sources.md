@@ -27,7 +27,8 @@ Primary files:
 - `analytics/formula_sheet.md`
 
 ### 2. Documented public config values
-These are values written directly into public scenario configs.
+These are values written directly into public scenario configs. Platform dependency belongs in this category: it is assigned in each governance profile and then read by the public observer formula.
+
 They should be read as:
 - encoded assumptions for a documented comparison,
 - bounded configuration choices for public release,
@@ -49,7 +50,7 @@ Included files:
 These overlays should be read as:
 - illustrative spectrum points,
 - aids for showing that friction is better treated as a gradient than as a binary switch,
-not as empirically estimated regime states.
+not as empirically estimated regime states. The spectrum also assigns progressively higher platform-dependency values as profile assumptions rather than discovering them dynamically.
 
 ### 4. Policy-facing governance overlays
 The policy overlays in this release are explicit illustrative counterfactuals built **without new code** on top of the documented public governance-observer surface.

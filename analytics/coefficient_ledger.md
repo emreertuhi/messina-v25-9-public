@@ -51,7 +51,20 @@ governance_erosion_score = (
 )
 ```
 
+## Core comparison decomposition
+
+In the core high-friction versus frictionless public comparison, the governance-erosion delta is dominated by the platform-dependency term:
+
+| Term | Contribution to governance-erosion delta |
+|---|---:|
+| Epistemic-integrity term | `0.000322` |
+| Decision-friction term | `0.007176` |
+| Platform-dependency term | `0.125000` |
+| Mosaic-response term | `0.000006` |
+
+This is a disclosure point, not a weakness to hide. A reader who rejects the platform-dependency assumption can alter the governance profile and rerun the comparison.
+
 ## What this file does and does not claim
 
 This file supports the claim that the public v25.9 governance diagnostics are explicit and inspectable.
-It does **not** claim that these weights are historically calibrated empirical constants.
+It does **not** claim that these weights are historically calibrated empirical constants or that the public runner has externally proven a causal relation between reduced friction and governance erosion.
