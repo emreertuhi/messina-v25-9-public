@@ -28,7 +28,7 @@ This repository is not a forecasting engine, production decision tool, full rele
 
 ## Start here
 
-1. `docs/MESSINA_Working_Paper_v1_5.md`
+1. `docs/MESSINA_Working_Paper_v1_6.md`
 2. `docs/model_card.md`
 3. `docs/release_scope.md`
 4. `docs/article_relation.md`
