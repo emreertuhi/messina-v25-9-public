@@ -20,7 +20,8 @@ This repository releases:
 - public artifacts for the v25.9 governance-observer surface,
 - validation tests for the bounded public runner,
 - friction-spectrum, policy-overlay, and theme-overlay summaries,
-- non-executable scenario briefs for future cross-theater comparison.
+- non-executable scenario briefs for future cross-theater comparison,
+- public support notes for sensitivity, saturation-testing plans, and artifact-status categories.
 
 ## Broader architecture versus public release
 

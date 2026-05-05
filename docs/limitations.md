@@ -45,3 +45,9 @@ Hormuz-centered outputs should not be transferred mechanically to Bab el-Mandeb,
 ## 11. Monte Carlo repetition does not create external probability truth
 
 The broader methodology lineage includes bounded Monte Carlo use, including MC512. That does not mean the current public build is a rare-event frequency engine or a source of real-world probabilities.
+
+## Peak-stress saturation caution
+
+Because the present calibration remains stress-forward, high-intensity chokepoint cases may reach elevated stress bands relatively quickly. This can compress variation in peak-stress outputs and should make readers cautious about overinterpreting near-identical peak-stress values across governance overlays.
+
+In this release, the more informative comparison is the directional divergence of governance-observer diagnostics, including decision friction, governance erosion, and platform dependency proxies. Future calibration work should test wider dynamic ranges, threshold sensitivity, and saturation behavior across additional scenario packs.

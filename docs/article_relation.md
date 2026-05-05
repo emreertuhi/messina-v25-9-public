@@ -82,3 +82,13 @@ Avoid saying simply:
 > The working code is public.
 
 That phrasing is too broad because the public repo does not expose the full internal v25.x engine.
+
+## Assumption-sensitive reading rule
+
+The public comparison should not be read as a dynamically discovered causal result. The governance-erosion delta is dominated by profile-assigned platform dependency. Equalizing platform dependency reduces the residual governance-erosion delta to approximately `0.0075`; a compressed-spread illustration is documented in `docs/platform_dependency_sensitivity.md`.
+
+The article can use the repository to support the claim that governance assumptions matter and are inspectable. It should not use the repository to claim that the public runner has empirically estimated the correct platform-dependency values.
+
+## Policy-overlay reading rule
+
+The policy overlays are modeled governance safeguards. They are not direct legal simulations, statutory effect estimates, or predictions of legal operation. The 12-hour notification, automatic sunset, structured dissent, and minimum brake package overlays should be read as governance-condition probes that translate diagnostics into possible safeguards.

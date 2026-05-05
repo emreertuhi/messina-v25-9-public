@@ -51,3 +51,16 @@ The broader v25.x lineage included richer internal validation and audit artifact
 ## Safe reading rule
 
 Use this release as a validated public comparison surface for bounded governance diagnostics. Do not treat it as a fully externally calibrated forecasting or command system.
+
+## Future validation roadmap
+
+The current public release identifies but does not yet complete several robustness checks:
+
+- platform-dependency compressed-spread sensitivity;
+- governance-weight sensitivity;
+- peak-stress dynamic-range and saturation testing;
+- at least one minimal executable internal-module fixture;
+- historical comparison mapping without claiming full calibration;
+- public artifact-status separation.
+
+See `docs/platform_dependency_sensitivity.md`, `docs/peak_stress_saturation_test_plan.md`, and `docs/artifact_status_table.md` for the current public notes.

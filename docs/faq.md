@@ -40,7 +40,7 @@ v25.9 adds observer-side governance diagnostics and a bounded same-shock compari
 Because wording changes the burden of proof. Safer language protects the repository from claiming more than the current build can support.
 
 ## 12. What is the safest description of MESSINA?
-> MESSINA is a mechanism-encoding, research-grade scenario-exploration framework whose outputs should be read as comparative stress diagnostics under encoded assumptions.
+> MESSINA v25.9 is a bounded public governance-diagnostic surface for chokepoint crisis stress testing under explicit assumptions.
 
 
 ## 13. Does Monte Carlo repetition make the outputs probabilities?
@@ -61,3 +61,11 @@ No. They are illustrative governance-condition overlays built on the public-safe
 
 ## 18. Does the public package include scenario breadth beyond Hormuz?
 It now includes non-executable public briefs for additional chokepoints and theaters, but the executable runner remains centered on the Hormuz-style v25.9 public case surface.
+
+## 19. Why does platform dependency matter so much?
+
+In the core public comparison, platform dependency is profile-assigned at `0.15` in the high-friction profile and `0.65` in the frictionless profile. Because governance erosion gives platform dependency a `0.25` weight, that spread contributes approximately `0.125` of the `0.132504` governance-erosion delta. This is disclosed as an assumption-sensitive diagnostic result, not a dynamically discovered causal finding.
+
+## 20. Why is peak stress nearly flat?
+
+The current public governance layer is observer-only and does not rewrite core stress dynamics. The calibration may also compress peak-stress variation in high-intensity chokepoint cases. The public release therefore treats governance-diagnostic divergence as more informative than a precise claim about peak-stress movement.

@@ -58,3 +58,11 @@ Governance proxy weights in the public runner are design choices, not empirical 
 - `artifacts/overlay_suite/theme_overlay_summary.md`
 
 These extend the bounded comparison surface without changing the public-safe code path.
+
+### 6. Sensitivity and roadmap support notes
+
+- `docs/platform_dependency_sensitivity.md`
+- `docs/peak_stress_saturation_test_plan.md`
+- `docs/artifact_status_table.md`
+
+These do not report new empirical model results. They clarify assumption sensitivity, future robustness checks, and artifact status categories.
