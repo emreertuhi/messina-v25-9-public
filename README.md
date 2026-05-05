@@ -1,14 +1,20 @@
 # MESSINA
 
-MESSINA is a mechanism-encoding stress-testing framework for exploring how chokepoint crises propagate through tightly coupled systems under structured governance conditions.
+MESSINA v25.9 is a bounded public governance-diagnostic surface for chokepoint crisis stress testing under explicit institutional-friction assumptions.
 
-This repository is the v25.9 public-safe release. It is a bounded companion to the SSRN working paper and does not release the full historical internal engine.
+This repository is the v25.9 public-safe release. It exposes formulas, configs, overlay artifacts, a bounded public runner, and documentation for the article-facing governance comparison. It does not release the full historical internal engine.
+
+MESSINA v25.9 is treated as a frozen-core snapshot. Future extensions should be designed as independent satellite scenario or module packs rather than retroactive changes to the v25.9 engine. This preserves comparability of the public release while allowing adjacent domains to be tested without reopening the core architecture.
 
 ## Working paper
 
-Ertuhi, Emre. 2026. *MESSINA v25.9: A Mechanism-Encoding Stress-Testing Framework for Chokepoint Crisis Governance*. SSRN Working Paper. Available at: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6654978
+Ertuhi, Emre. 2026. *MESSINA: A Bounded Governance-Diagnostic Surface for Chokepoint Crisis Stress Testing*. SSRN Working Paper. Available at: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6654978
+## Working Paper Figures
 
-**Keywords:** chokepoint crisis, institutional friction, governance erosion, stress testing, Hormuz, maritime coercion, securitization, normal accidents, agent-based modeling, platform dependency, crisis propagation, tight coupling, governance diagnostics, simulation framework, circulation crisis, rented visibility, braking architecture, decision sovereignty, governance-observer surface
+The v1.7 working paper includes five embedded public-observer figures: governance-erosion delta decomposition, equalized platform-dependency stress check, core high-friction vs frictionless comparison, five-point friction spectrum, and policy-overlay comparison. These figures visualize the public formulas, profiles, and overlay artifacts only; they do not add empirical calibration, legal-effect estimates, or forecasting claims.
+
+
+**Keywords:** chokepoint crisis, institutional friction, governance erosion, stress testing, Hormuz, maritime coercion, securitization, normal accidents, agent-based modeling, platform dependency, crisis propagation, tight coupling, governance diagnostics, simulation framework, circulation crisis, rented visibility, braking architecture, decision sovereignty, governance-observer surface, mechanism encoding, maritime domain awareness, crisis governance, observer diagnostics, public reproducibility
 
 **JEL Classification:** F51, F52, H56, C63, D02, H12, D81
 
@@ -28,33 +34,37 @@ This repository is not a forecasting engine, production decision tool, full rele
 
 ## Start here
 
-1. `docs/MESSINA_Working_Paper_v1_6.md`
+1. `docs/MESSINA_Working_Paper_v1_7.md`
 2. `docs/model_card.md`
 3. `docs/release_scope.md`
 4. `docs/article_relation.md`
 5. `docs/validation_status.md`
 6. `REPRODUCIBILITY.md`
 7. `analytics/formula_sheet.md`
-8. `configs/governance_high_friction.json` and `configs/governance_frictionless.json`
-9. `artifacts/v25.9/governance_summary.md`
+8. `analytics/coefficient_ledger.md`
+9. `docs/platform_dependency_sensitivity.md`
+10. `docs/peak_stress_saturation_test_plan.md`
+11. `docs/artifact_status_table.md`
+12. `configs/governance_high_friction.json` and `configs/governance_frictionless.json`
+13. `artifacts/v25.9/governance_summary.md`
 
 ## How to reproduce the public comparison
 
 The public-safe runner uses only the Python standard library.
 
-```
+```bash
 python -m unittest tests.public_validation.test_public_safe_runner -v
 ```
 
 Run a single public-safe scenario:
 
-```
+```bash
 python run_public.py single --config configs/hormuz_v25_9_baseline.json --out outputs/example_run
 ```
 
 Run the high-friction versus frictionless comparison:
 
-```
+```bash
 python run_public.py compare --left configs/governance_high_friction.json --right configs/governance_frictionless.json --left-label high_friction --right-label frictionless --out outputs/example_compare
 ```
 
@@ -64,7 +74,9 @@ The clearest public evidence files are `src/public_safe/observer_formulas.py`, `
 
 ## Interpretation rule
 
-The public comparison should be read as an assumption-sensitive observer diagnostic. In the core high-friction versus frictionless comparison, governance erosion rises from 0.561 to 0.693, but that delta is dominated by the platform-dependency assumption: platform dependency is assigned at 0.15 in the high-friction profile and 0.65 in the frictionless profile. Readers can challenge that assumption, alter the profile, and rerun the comparison.
+The public comparison should be read as an assumption-sensitive observer diagnostic. In the core high-friction versus frictionless comparison, governance erosion rises from 0.561 to 0.693, but that delta is dominated by the platform-dependency assumption: platform dependency is assigned at 0.15 in the high-friction profile and 0.65 in the frictionless profile. Equalizing platform dependency reduces the remaining governance-erosion delta to approximately 0.0075. Readers can challenge that assumption, alter the profile, and rerun the comparison.
+
+Peak-stress values should also be read cautiously. The public governance layer is observer-only and the current calibration may compress peak-stress variation in high-intensity chokepoint cases. The stronger public comparison is the divergence in governance-observer diagnostics rather than a precise claim about peak-stress movement.
 
 ## Public metadata
 

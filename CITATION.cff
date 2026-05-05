@@ -1,13 +1,13 @@
 cff-version: 1.2.0
 message: "If you use this repository, please cite it using the metadata below."
-title: "MESSINA v25.9 Public-Safe Governance-Observer Release"
+title: "MESSINA v25.9 Public-Safe Governance-Diagnostic Surface"
 type: software
 authors:
   - family-names: "Ertuhi"
     given-names: "Emre"
 repository-code: "https://github.com/emreertuhi/messina-v25-9-public"
 url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6654978"
-abstract: "A bounded public-safe governance-observer release for mechanism-encoding chokepoint crisis stress testing under encoded assumptions. This release exposes formulas, configs, artifacts, and a public runner; it is not a full release of the historical internal engine."
+abstract: "A bounded public-safe governance-diagnostic surface for mechanism-encoding chokepoint crisis stress testing under explicit governance assumptions. This release exposes formulas, configs, artifacts, and a public runner; it is not a full release of the historical internal engine."
 license: "MIT"
 keywords:
   - chokepoint crisis
@@ -24,11 +24,21 @@ keywords:
   - tight coupling
   - governance diagnostics
   - simulation framework
-version: "v25.9-public-safe-v8.6"
-date-released: "2026-05-02"
+  - circulation crisis
+  - rented visibility
+  - braking architecture
+  - decision sovereignty
+  - governance-observer surface
+  - mechanism encoding
+  - maritime domain awareness
+  - crisis governance
+  - observer diagnostics
+  - public reproducibility
+version: "v25.9-public-safe-v8.8"
+date-released: "2026-05-05"
 preferred-citation:
   type: report
-  title: "MESSINA v25.9: A Mechanism-Encoding Stress-Testing Framework for Chokepoint Crisis Governance"
+  title: "MESSINA: A Bounded Governance-Diagnostic Surface for Chokepoint Crisis Stress Testing"
   authors:
     - family-names: "Ertuhi"
       given-names: "Emre"

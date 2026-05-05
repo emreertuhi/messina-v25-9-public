@@ -2,6 +2,18 @@
 
 All notable changes to the public-facing MESSINA repository should be recorded here.
 
+## [v25.9-public-safe-v8.7] - 2026-05-05
+
+### Changed
+- Replaced the working paper with `docs/MESSINA_Working_Paper_v1_7.md`.
+- Updated README and CITATION metadata to the v1.7 title: *MESSINA: A Bounded Governance-Diagnostic Surface for Chokepoint Crisis Stress Testing*.
+- Tightened public interpretation language around platform dependency, peak-stress saturation, legal-policy overlays, and the public/internal reproducibility boundary.
+- Updated model-card, public-framing, article-relation, validation-status, release-scope, limitations, parameter-source, coefficient-ledger, and version-note language to match the v1.7 claim surface.
+- Added public support notes for platform-dependency sensitivity, peak-stress dynamic-range/saturation testing, and artifact status categories.
+
+### Validation
+- Public unit tests rerun successfully after documentation updates.
+
 ## [v25.9-public-safe-v8.6] - 2026-05-02
 
 ### Changed

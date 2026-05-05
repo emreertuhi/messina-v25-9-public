@@ -84,3 +84,13 @@ The command should return nothing in the release zip.
 ## Reading rule
 
 Successful reproduction of this runner supports narrow public-build claims: the public formulas are inspectable, the public artifacts can be regenerated, and the documented v25.9 governance-observer surface is reproducible. It does not justify forecasting claims, external-probability claims, or claims about undisclosed internal engine behavior.
+
+## Sensitivity and roadmap notes
+
+The public runner reproduces the documented observer surface. Additional support notes identify important assumption and robustness checks:
+
+- `docs/platform_dependency_sensitivity.md` documents equalized and compressed-spread platform-dependency checks.
+- `docs/peak_stress_saturation_test_plan.md` records a future dynamic-range and saturation test plan.
+- `docs/artifact_status_table.md` separates sourced values, profile-assigned assumptions, design priors, generated artifacts, lineage claims, and future validation targets.
+
+These files do not add new empirical calibration. They clarify how the public comparison should be challenged and extended.
